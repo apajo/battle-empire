@@ -1,0 +1,43 @@
+Control keys:
+Up arrow - Accelrate
+Down arrow - Reverse
+Left arrow - Turn left
+Right arrow - Turn right
+Left control - Shoot
+Tab - Players list
+Esc - Taggle menu
+
+Ingame commands:
+/teamsay [text]
+/ts [text]
+/t [text]
+/tt  [text]
+/teamtell [text]
+/name [name]
+/team [team id or name]
+/smokedelay [millisecs]
+/3dwalls [state]
+/maxparticles [count]
+/vsync [state]
+/exit
+/quit
+/topic
+/adminpassword [password]
+
+Server commands:
+/exit
+/kick [name]
+/say [text]
+/gamespeed [value]
+/viewdistance [radius in tiles]
+/speed [pixels]
+/turnspeed [degrees]
+/bulletspeed [pixels]
+/respawndelay [milliseconds]
+/realisticmode [state]
+/friendlyfire [state]
+/resetmap
+/loadmap [file name]
+/fraglimit
+/timelimit
+/settopic

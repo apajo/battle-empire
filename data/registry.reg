@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\be]
+@="URL:Battle Empire protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\be\DefaultIcon]
+@="\"C:\\Program Files\\BlitzPlus\\bin\\be.exe\""
+[HKEY_CLASSES_ROOT\be\shell]
+[HKEY_CLASSES_ROOT\be\shell\open]
+[HKEY_CLASSES_ROOT\be\shell\open\command]
+@="\"C:\\Program Files\\BlitzPlus\\bin\\be.exe\" /join %1"

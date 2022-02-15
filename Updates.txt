@@ -1,0 +1,111 @@
+Version 1.09:
+ * CTE - new game mode "Capture the eagle" (TODO)
+ * GPU - Now using hardware rendering (OpenGL) (TODO)
+ * Flamer tank - a tank that is wielded with a flamethrower (TODO)
+ * Ice - Added ice to the game (TODO)
+
+Version 1.08:
+ * Playerlist - Dead players are shown as red in the list
+ * Playerlist - Players are aligned by their frags
+ * Playerlist - It's resizing itself by the amount of the players
+ * Playerlist - Now showing different teams in different rows
+ * Deaths - Now you can see from playerlist how many times you and others have died
+ * Bot names - Limited bot name sizes
+ * Bots - Improved the bots (collisions, secondary weapons etc)
+ * Bots vs Mines - Bots didn't die by mines
+ * Players - Server now shows the current players and their status
+ * Tanks - Heavy tank is slower, Medium tank turns faster, constructer reloads longer, mine tank is slower
+ * Defusing - Constructer tank now defuses enemy mines when driving over them
+ * Bonuses - Added bonuses: Invisibility, Immortality, Rambo, Artillery, Health
+ * Health - Every tank has it's own health now
+ * Invisibility - Fixed it because there shouldn't be it
+ * Server messages - Limiting the content of the messages to 5120 bytes
+ * Protocol - Now the local Battle Empire protocol will be registered everytime you run the game
+
+Version 1.07:
+ * Aritificial Intelligence - Bots added to game
+ * Ping - Better pings due to less use of bandwidth
+ * Joining - Fixed the joining bug where server said that you were kicked or disconnected
+ * Server crash - Server crashed when selected a map
+ * Constructer tank - fixed the flicking bug
+ * Frags - Showing frag messages in server
+
+Version 1.06:
+ * Fragging - Dieing is now server side
+ * Playerlist - Removed empty entries in the list
+ * Highlighting - Highlighted messages
+ * No clipping - It was possible to pass walls with VERY low FPS
+ * Ping - The ping should be a little better now, especially with low FPS
+ * Buildable walls - They need more than one rocket to be destroyed
+ * Realistic mode - Players (dis)appear smoothly
+ * Joining - It's not possible to connect to a non-responding server
+
+Version 1.05:
+ * Current tank - Constructer was shown as Heavy tank in menu
+ * Transparent images - Faster transparent images
+ * Crash - Another crashing bug fixed
+
+Version 1.04:
+ * Crash - Transparent image crashed the game sometimes
+ * Ingame menu - Some values weren't saved
+ * Respawn - Now you'll respawn in opponents spawnpoint too with deathmatch mode
+ * Construction tank - A tank that can construct brick walls has been added
+ * Game mode - Now showing it in the ingame server window
+ * Explosion - Many explosions appeared with high ping on collision of bullet and brick wall
+ * Joiner notification - Server will notify you if a player has joined
+ * Tank names - Tank names added to the game menu
+ * Debug - Added debug ability to the game
+ * Collision - Decreased the bullet collision radius to players
+
+Version 1.03:
+ * Protocol - Rebuilt the network code to UDP protocol 
+ * Map load crash - The server crashed when loaded a map
+ * Frag/Time limit - Added time and frag limits
+ * Message bar - Invisible message bar when there's no text
+ * Player list - New player list background image
+ * Server message - Server message (Topic) added to the game
+ * Server activity - More ingame messages are shown in server
+ * Wall destruction - The wall destruction is now server side
+ * Realistic mode - You saw enemies through walls in deathmatch game with realistic mode
+ * Transparency - Rebuilt transparent image drawing engine
+ * Version - Now showing the version number in game menu window
+ * Security - Using less known image formats to prevent cheating
+ * Message bar - New message bar image
+ * Player list bar - New image for the player list
+ * Ping - Now showing Ping-oval in the top-right corner of the screen (Original idea: Michal Marcinkowski)
+
+Version 1.02:
+ * Bullet delay - Server didn't accept command "/bulletdelay" from client
+ * Font change - Font changed to "System" when changed screen mode
+ * Team scores - When reset or loaded map the team scores weren't reset
+ * Key bindings - Added key binding ability to all function keys
+ * Team kill - Sometimes the team killing text appeared for kills that actually weren't team kills
+ * Realistic mode, friendly fire - Now showing them in Server window
+ * Tank selecting - You can now select the tank from ingame menu too
+ * Application title - Changed application title (in the titlebar of the window)
+ * Message characters - Message system now supports []{} and some more symbols
+ * Remote tank - Remote tanks no longer turn-flicker
+ * Landmines - Added landmines to game
+ * Leaving player - All leaving players will explode to other realm :)
+ * Router - Improved router detection
+ * Status bar - New design for statusbar
+ * Game type - Game type now choosable between Invasion, Team Deathmatch and Deathmatch
+ * Movement styles - Added classical 4 directional movement to options
+ * Server name - Longer server name supported. From 24 to 32 characters
+ * Eagle - You can't destroy your own eagle anymore
+ * Server map - Map can be now SELECTED while the server is running
+ * Saving in menu - the menu doesn't crash anymore when saving
+ * Bullets - after respawn all bullets will be defused
+
+Version 1.01:
+ * Fixed joining bug (probably) - Many users had problems with joining to game
+ * Fixed Player list bug - Usually Tab button caused the game to crash
+ * Added names on the tanks - Always shows the name of the tank driver
+ * Loop music - It didn't loop in the earlier version
+ * Friendly fire - Now it's possible to turn on/off friendly fire
+ * Reseting map - Reset the map
+ * Loading map - Load another map
+ * Fixed camera moving - On slower machines the tank was too fast for the camera to move along
+ * Added bulletdelay editing - In a rush i forgot to add it before
+ * Camera range fixed - Camera showed one not wanted tile column in the right of the map
+ * Team kill - Now it shows when a player kills it's team member
